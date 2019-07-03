@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+section{
+display: flex;
+position: relative;
+padding: 2em;
+margin: 5em auto;
+line-height: 1.5;
+font-weight: 400;
+width: 900px;
+height: 500px;
+background: #ddd;
+border-radius: 10px;
+background-image: url(../images/rad1.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow:5px 10px 5px rgba(0,0,0,0.7);
+}
+section:hover{
+transform: scale(1);
+transition: all 0.5s ease;
+}
+ul li{
+position: relative;
+padding-left: 5px;
+text-decoration: none;
+display:inline-block;
+color: #fff;
+}
+li{
+text-align: right;
+font-size: 15px;
+}
+li:hover{
+color: #2e99ac;
+transition: 0.5s ease;
+}
+.one{
+position: absolute;
+height: 280px;
+width: 300px;
+bottom: 0;
+left: 0;
+}
+.one h1{
+padding-left: 15px;
+color: #d4af37;
+font-family: 'Oswald', sans-serif;
+}
+.one h1:hover{
+color: #fff;
+transition: 0.5s ease;
+}
+.one p{
+color: #fff;
+text-align: center;
+}
+.two{
+position: absolute;
+padding-top: 90px;
+height: 450px;
+width: 270px;
+bottom: 0;
+right: 0;
+}
+.two h2{
+text-align: center;
+color: #fff;
+}
+.two p{
+color: #fff;
+}
+hr{
+color: #fff;
+}
+.two button{
+justify-content: space-around;
+align-items: center;
+}
+footer{
+font-size: 20px;
+font-weight: 400;
+}
